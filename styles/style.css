@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+section {
+  padding: 100px 0px;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 540px ) {
+
+    section {
+        padding: 0px;
+    }
+    #card {
+        width: 100% !important;
+    }
+}
